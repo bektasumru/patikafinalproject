@@ -11,7 +11,7 @@ In this project, the Airline Passenger Satisfaction dataset was analyzed through
 
 -visualizations for numerical and categorical variables.
 
-Purpose → To identify the key factors affecting passenger satisfaction and highlight potential areas for improvement.
+PURPOSE → To identify the key factors affecting passenger satisfaction and highlight potential areas for improvement.
 
 ## Dataset Overview
 
@@ -23,16 +23,41 @@ Purpose → To identify the key factors affecting passenger satisfaction and hig
 | Target    | `satisfaction` (Satisfied / Neutral or Dissatisfied) |
 
 
-## Analysis Steps
+## 🔎 Analysis Steps
 
 | Step | Description |
 |------|-------------|
-| 1. Data Loading | The dataset was imported using pandas from a `.csv` file. |
-| 2. Statistical Summary | `describe()` was used to view the mean, median, and min–max values. |
-| 3. Missing Values | Only the `Arrival Delay in Minutes` column had 310 missing values; these were filled using the column median. |
-| 4. Outlier Detection | Outliers were detected using the IQR method and capped to boundary values. |
-| 5. Visualization | Histograms, boxplots, and bar charts were created using Matplotlib & Seaborn. |
-| 6. Insights | Online Boarding, Inflight Entertainment, and Seat Comfort emerged as the key factors affecting satisfaction. |
+| 1. 📥 Data Loading | The dataset was imported using `pandas`. |
+| 2. 📈 Statistical Summary | `describe()` method used to view mean, median, min–max values. |
+| 3. 🔧 Missing Values | Missing data in `Arrival Delay in Minutes` was filled using the median. |
+| 4. 🚨 Outlier Detection | IQR method used to identify outliers; `capping` was applied to reduce their effect. |
+| 5. 📉 Visualization | Charts created using **Matplotlib** & **Seaborn** (Histograms, Boxplots, Bar Charts). |
+| 6. 💡 Key Insights | Features like **Online Boarding**, **Inflight Entertainment**, and **Seat Comfort** had the strongest impact on satisfaction. |
+
+---
+
+## 📌 Key Findings
+
+- 💺 **Business class** and **loyal customers** tend to report higher satisfaction.
+- 📶 Areas needing improvement: **Inflight Wifi Service** and **Ease of Online Booking**.
+- 📊 Delay variables (arrival/departure) had significant outliers, but were kept due to their real-world nature.
+
+---
+
+## 🧰 Technologies Used
+
+- Python (pandas, numpy)
+- Data Visualization (matplotlib, seaborn)
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+## 🎯 Conclusion
+
+This project highlights the main factors affecting airline passenger satisfaction. The insights can guide airlines in enhancing service quality and targeting key areas for operational improvements.
+
+---
 
 
 

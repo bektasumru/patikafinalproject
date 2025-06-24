@@ -1,6 +1,6 @@
 ✈️ Airline Passenger Satisfaction – Project
+![airplaneproject](https://github.com/user-attachments/assets/939327d9-1253-4c47-8f58-67e0e8cb3513)
 
-![Project Cover](visuals/airplaneproject.png)
 
 About the Project
 In this project, the Airline Passenger Satisfaction dataset was analyzed through the following steps:
